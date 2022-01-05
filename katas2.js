@@ -35,7 +35,7 @@ console.assert(power(3, 4) === 81, 'A função power não está funcionando como
 function factorial (n1) {
   let total = 1;
   if (n1 === 0) return 1;
-  for (let i = 1; i <= n; i++) {
+  for (let i = 1; i <= n1; i++) {
     total = multiply (total, i);
   }
   return total;
